@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Titel i browser-tab -->
+    <title>Om mig - Denis Peci Buzi</title>
+
+    <!-- Link til CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ommiglayout.css">
+    <link rel="stylesheet" href="headerfooter.css">
+    <link rel="stylesheet" href="kontakt.css">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Train+One&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <!-- ======================
+             HEADER
+        ======================= -->
+
+    <!-- HEADER -->
+    <header>
+        <a href="index.html" class="logo-link">
+            <img src="portfoliologo.svg" alt="Denis logo" class="logo">
+        </a>
+
+        <div class="burger-icon" id="burgerBtn">
+            ☰
+        </div>
+
+    </header>
+
+
+    <!-- ======================
+             BURGER MENU
+        ======================= -->
+
+    <nav class="burger-menu" id="burgerMenu">
+
+        <!-- Luk knap -->
+        <div class="close-btn" id="closeBtn">
+            ✕
+        </div>
+
+        <!-- Menu links -->
+        <ul>
+
+            <li><a href="ommig.html">Om mig</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="t2.html">TEMA 2</a></li>
+            <li><a href="t3.html">TEMA 3</a></li>
+            <li><a href="t4.html">TEMA 4</a></li>
+            <li><a href="t5.html">TEMA 5</a></li>
+
+        </ul>
+
+    </nav>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <main>
+
+
+        <section class="kontakt">
+            <div class="container">
+                <h2>Kontakt</h2>
+
+                <form class="kontakt_grid">
+
+                    <div class="kontakt_grid_1-1">
+
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Navn" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="E-mail *" required>
+                        </div>
+
+                    </div>
+
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Telefonnummer">
+                    </div>
+
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Besked" rows="6" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">
+                        Send
+                    </button>
+
+                </form>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-socials">
+
+            <a href="#">
+                <img src="favikoner/igfav.webp" alt="">
+            </a>
+
+            <a href="#">
+                <img src="favikoner/fbookfav.webp" alt="">
+            </a>
+
+            <a href="#">
+                <img src="favikoner/spotifyfav.webp" alt="">
+            </a>
+
+        </div>
+
+        <p class="footer-copy">
+
+            © 2026 Denis Peci Buzi
+
+        </p>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

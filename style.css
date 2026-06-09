@@ -1,0 +1,69 @@
+/* ===================================
+   RESET
+=================================== */
+
+/*
+    Fjerner browserens standard spacing
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===================================
+   BODY
+=================================== */
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* ===================================
+   TEKST STYLING
+=================================== */
+
+/* Om mig */
+
+.about-section h2 {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+/* Navn */
+
+.about-text h3 {
+  font-size: 2rem;
+}
+
+/* Brødtekst */
+
+.about-text p {
+  font-size: 1.3rem;
+  line-height: 1.6;
+}
+
+/* ===================================
+   PROFIL BILLEDE
+=================================== */
+
+/*
+    Den grå wireframe-boks
+    bliver her til et rigtigt billede
+*/
+
+.profile-image {
+  width: 100%;
+  max-width: 500px;
+  height: 250px;
+
+  object-fit: cover;
+
+  border: 3px solid #555;
+  border-radius: 5px;
+
+  display: block;
+}
